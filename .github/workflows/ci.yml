@@ -36,7 +36,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.2'
           bundler-cache: true
 
       - name: Install dependencies
@@ -65,7 +65,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.2'
           bundler-cache: true
 
       - name: Check Ruby code style
