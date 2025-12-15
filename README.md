@@ -53,6 +53,10 @@ You can start the rails server using the command given below.
 bundle exec rails s
 ```
 
+If port 3000 is already in use, you can either:
+- Stop the existing server: `lsof -ti:3000 | xargs kill -9`
+- Use a different port: `bundle exec rails s -p 3001`
+
 ### 8. View routes
 
 Run the following command or go to http://localhost:3000/rails/info/routes to see all routes your application is configured to. 
